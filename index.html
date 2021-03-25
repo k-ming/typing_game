@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Typing Master</div>
+    <div class="content">
+      <div class="word-display">
+        hello
+      </div>
+      <div class="word-input-box">
+        <input type="text" class="word-input" placeholder="typing here!">
+      </div>
+      <div class="game-info">
+        <div>
+          Time : <span class="time">0</span>sec
+        </div>
+        <div>
+          Score : <span class="score">0</span>
+        </div>
+      </div>
+      <button class="btn-start loading" onClick="run()"></button>
+    </div>
+  </div>
+    
+ 
+  <script src="js/game.js"></script>
+</body>
+</html>
